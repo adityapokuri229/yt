@@ -79,7 +79,7 @@ h3 {
   right: 200px;
   top: 50px;
   padding-top: 70px;
-  
+
 }
 
 /*.Yo{
@@ -112,6 +112,18 @@ h3 {
   float: right;
   margin-left: 30px;
   border-bottom: 10px
+}
+
+@media only screen and (max-width: 1000px) {
+  .top-cloud {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .bottom-cloud {
+    display: none;
+  }
 }
 
 
