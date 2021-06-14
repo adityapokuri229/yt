@@ -114,17 +114,25 @@ h3 {
   border-bottom: 10px
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 992px) {
   .top-cloud {
     display: none;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 992px) {
   .bottom-cloud {
     display: none;
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .btn {
+    font-size: 90%;
+
+  }
+}
+
 
 
 
@@ -147,7 +155,7 @@ h3 {
   border-radius: 8px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 90%;
+  font-size: 100%;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 
