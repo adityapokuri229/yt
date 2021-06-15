@@ -49,6 +49,7 @@ h3 {
 }
 
 .middle-container {
+  background-color: #ffffff;
 
 }
 
@@ -70,7 +71,7 @@ h3 {
 .bottom-cloud {
   position: absolute;
   left: 170px;
-  bottom: 325px;
+  bottom: 380px;
 
 }
 
@@ -91,7 +92,9 @@ h3 {
 
 
 .Mount{
-  padding-bottom: 0px;
+  padding-top:  50px;
+  vertical-align: middle;
+
 
 
 }
