@@ -79,7 +79,7 @@ h3 {
   position: absolute;
   right: 200px;
   top: 50px;
-  padding-top: 100px;
+  padding-top: 110px;
 
 }
 
@@ -144,7 +144,8 @@ h3 {
 
 
 .padd{
-  padding-top: 10px;
+  padding-top: 40px;
+
 }
 
 .btn {
