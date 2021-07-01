@@ -131,7 +131,7 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 992px) {
+/*@media only screen and (max-width: 992px) {
   .btn {
     font-size: 90%;
 
@@ -141,9 +141,16 @@ h3 {
 @media only screen and (orientation:portrait){
   body {
     height: 100vw;
-    transform: rotate(90deg);
+    display: none;
   }
 }
+
+@media only screen and (max-width: px) {
+  .Orient {
+    display: block;
+
+  }
+}*/
 
 
 

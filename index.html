@@ -16,61 +16,81 @@
 
 <body>
 
+  <style type="text/css">
+   .mobileShow {display: none;}
+
+   /* Smartphone Portrait and Landscape */
+   @media only screen
+     /*and (min-device-width : 320px)*/
+     and (max-device-width : 480px){
+       .mobileShow {display: inline;}
+   }
+ </style>
+
   <div class="top-container">
     <img class="top-cloud" src="img/cloud.svg" alt="Cloud">
 
-      <!--<img class="Yo" src="Aditya.png" alt="I'm Aditya" width="364px" height="98px">-->
-      <h1>I'm Aditya.</h1>
-    <h2><center>a science and technophile.</center></h2>
+    <!--<img class="Yo" src="Aditya.png" alt="I'm Aditya" width="364px" height="98px">-->
+    <h1>I'm Aditya.</h1>
+    <h2>
+      <center>a science and technophile.</center>
+    </h2>
     <img class="bottom-cloud" src="img/cloud.svg" alt="Cloud">
-    <img class="Mount" src="img/land.svg" width="65%" alt="Land" >
+    <img class="Mount" src="img/land.svg" width="65%" alt="Land">
   </div>
 
   <div class="middle-container">
-      <img class="padd" src="img/me.svg" width"150" height="150" alt="Profile">
-      <h2>Hello!</h2>
-      <p>I am Aditya Pokuri, I own the youtube channel <i>"Science with Aditya".</i>
-          <br><br> I love Science, experimenting and coding.<br><br>Scroll down to see more.</p>
+    <img class="padd" src="img/me.svg" width"150" height="150" alt="Profile">
+    <h2>Hello!</h2>
+    <p>I am Aditya Pokuri, I own the youtube channel <i>"Science with Aditya".</i>
+      <br><br> I love Science, experimenting and coding.<br><br>Scroll down to see more.
+    </p>
+  </div>
+  <hr>
+  <div class="skills">
+    <br>
+    <h2>What happens in my channel.</h2>
+
+    <div class="skill-row">
+      <img class="sci" src="img/giphy.gif" alt="Science">
+      <h3>Experiments&Fun</h3>
+      <p>Amazing experiments and science explanations are done in my channel, some things are not only science but loads of cheesy fun, Go to the bottom for channel link.</p>
     </div>
-    <hr>
-    <div class="skills">
-      <br>
-      <h2>What happens in my channel.</h2>
-
-      <div class="skill-row">
-        <img class="sci" src="img/giphy.gif"  alt="Science">
-        <h3>Experiments&Fun</h3>
-        <p>Amazing experiments and science explanations are done in my channel, some things are not only science but loads of cheesy fun, Go to the bottom for channel link.</p>
-      </div> 
-      <div class="skill-row">
-        <a href="resource.html" target="_blank"><img class="profile" src="img/click.gif"  alt="Resources"></a>
-         <h3>Resources</h3>
-        <p>Click on the "Click Here" icon so you can see all the links for download provided by me in the main channel, And the other channels.</p>
-      </div>
+    <div class="skill-row">
+      <a href="resource.html" target="_blank"><img class="profile" src="img/click.gif" alt="Resources"></a>
+      <h3>Resources</h3>
+      <p>Click on the "Click Here" icon so you can see all the links for download provided by me in the main channel, And the other channels.</p>
     </div>
-    <hr>
-    <div class="contact-me">
+  </div>
+  <hr>
+  <div class="contact-me">
 
-      <h2>Get In Touch</h2>
-      <h3>Any Query to be answered?</h3>
-      <p class= "hi"> Click on the contact me button to reach me on mail!</p>
-      <a class="btn" href="mailto:aditya.pokuri229@gmail.com"><i class="fal fa-envelope"></i> CONTACT ME</a>
+    <h2>Get In Touch</h2>
+    <h3>Any Query to be answered?</h3>
+    <p class="hi"> Click on the contact me button to reach me on mail!</p>
+    <a class="btn" href="mailto:aditya.pokuri229@gmail.com"><i class="fal fa-envelope"></i> CONTACT ME</a>
 
 
-    </div>
+  </div>
   </div>
 
 
   <div class="bottom-container">
     <center>
-    <a class="footer-link" href="https://www.youtube.com/channel/UCAey19cgMCxJlziTsJPnWHA" target="_blank"><i class="fab fa-youtube"></i> Youtube</a>
-    <a class="footer-link" href="works.html" target="_blank"><i class="fas fa-books"></i> MyWorks</a>
-    <a class="footer-link" href="feedback.html" target="_blank" ><i class="fal fa-comment-lines"></i> Feedback</a>
+      <a class="footer-link" href="https://www.youtube.com/channel/UCAey19cgMCxJlziTsJPnWHA" target="_blank"><i class="fab fa-youtube"></i> Youtube</a>
+      <a class="footer-link" href="works.html" target="_blank"><i class="fas fa-books"></i> MyWorks</a>
+      <a class="footer-link" href="feedback.html" target="_blank"><i class="fal fa-comment-lines"></i> Feedback</a>
 
-    <p class= "bro" >© 2021 Aditya Pokuri.
-  </center>
+      <p class="bro">© 2021 Aditya Pokuri.
+    </center>
+  </div>
+
+  <div class="mobileShow">
+  TEXT OR IMAGE FOR MOBILE HERE
   </div>
 
 
+
 </body>
+
 </html>
