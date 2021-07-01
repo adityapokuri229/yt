@@ -131,26 +131,17 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .btn {
-    font-size: 90%;
 
-  }
-}
 
 @media only screen and (max-width: 992px) {
   .bottom-container {
-    font-size: 72.5%;
+    font-size: 77.5%;
 
   }
 }
 
 
-@media only screen and (max-width: 992px) {
-  .fal fa-envelope {
-    display: none;
-  }
-}
+
 
 
 .padd{
