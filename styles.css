@@ -133,19 +133,24 @@ h3 {
 
 @media only screen and (max-width: 992px) {
   .btn {
-    font-size: 60%;
+    font-size: 90%;
 
   }
 }
 
 @media only screen and (max-width: 992px) {
   .bottom-container {
-    font-size: 60%;
+    font-size: 72.5%;
 
   }
 }
 
 
+@media only screen and (max-width: 992px) {
+  .fal fa-envelope {
+    display: none;
+  }
+}
 
 
 .padd{
